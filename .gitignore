@@ -1,0 +1,28 @@
+# .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+TestResults/
+
+# Environment & Local Secrets
+.env
+.env.local
+.env.*.local
+Backend/.env
+Backend/appsettings.Local.json
+Frontend/.env
+
+# Node / Frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+npm-debug.log*
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db

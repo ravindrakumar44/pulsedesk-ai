@@ -1,6 +1,8 @@
 # .NET / Visual Studio
 bin/
 obj/
+publish/
+PulseDesk-MonsterASP-Deploy.zip
 *.user
 *.suo
 *.userosscache
@@ -14,9 +16,12 @@ TestResults/
 .env.*.local
 Backend/.env
 Backend/appsettings.Local.json
+Backend/appsettings.Production.json
 Frontend/.env
+Frontend/.env.production
 
-# Node / Frontend
+# Build Output
+Backend/wwwroot/
 Frontend/node_modules/
 Frontend/dist/
 Frontend/.vite/
